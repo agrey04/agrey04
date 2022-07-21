@@ -1,0 +1,22 @@
+{
+  "name": "user-manangemet-tranvesry",
+  "version": "1.0.0",
+  "description": "user app from tranvesrt media",
+  "main": "server.js",
+  "scripts": {
+    "start": " node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "agrey tibamanya",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
