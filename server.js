@@ -17,6 +17,7 @@ app.use(express.urlencoded({ extended: false}))
 app.use(errorHandler)
 
 // set the home route
-app.use('/api/goals', require('./routes/goalRoutes'))
+app.use('/api/goals', require('./routes/goalRoutes'));
+app.use('/api/users', require('./routes/userRoutes'))
 
 app.listen(port, ()=>console.log(`server running in port number${port}`))
