@@ -10,6 +10,8 @@ const getGoals =asyncHandler( async(req,res)=>{
     res.status(200).json(goals)
 }
 ) 
+
+
 // @desc set goals
 // @route POST /api/goals
 // @access private
